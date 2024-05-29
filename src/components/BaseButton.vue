@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <button
-    class="bg-red-400 text-white border-black border-2 pop-out rounded-md p-2 active:bg-green-300 active:text-black hover:-translate-x-1 hover:-translate-y-1 transition-all"
+    class="bg-red-400 text-white border-black border-2 pop-out rounded-lg p-2 active:bg-green-300 active:text-black hover:-translate-x-1 hover:-translate-y-1 transition-all"
   >
     <slot></slot>
   </button>
